@@ -40,7 +40,7 @@ const main = async () => {
     var raw = JSON.parse(data)
     var input = []
 
-    //filtering out erroneous information about the plane seating plane.
+    //filtering out erroneous information about the plane seating plan.
     for (i = 0; i < raw.length; i++) {
         if (raw[i] == null || raw[i].length <= 1 || raw[i][0] == 0 || raw[i][1] == 0) { continue; }
         input.push(raw[i])

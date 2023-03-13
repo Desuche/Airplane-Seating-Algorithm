@@ -36,7 +36,6 @@ const main = async () => {
     await question1()
     await question2()
 
-    console.log(numberOfPassengers)
 
     var raw = JSON.parse(data)
     var input = []
